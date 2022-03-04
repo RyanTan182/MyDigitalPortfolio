@@ -1,0 +1,64 @@
+.text-index-hi{
+    padding: 30% 0;
+
+}
+
+.learn-about-me:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .learn-about-me:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .learn-about-me:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .learn-about-me:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .display-1 {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  .display-4 {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 20s;
+    -moz-animation: fadeIn 25s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }

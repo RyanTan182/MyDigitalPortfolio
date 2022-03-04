@@ -4,7 +4,7 @@ const router = express.Router();
 
 router.get('/', (req, res) => {
 	const title = "Hi, I'm Ryan Tan!";
-	res.render('index', {title: title}) 
+	res.render('home', {title: title}) 
 });
 
 router.get('/about', (req, res) => {
