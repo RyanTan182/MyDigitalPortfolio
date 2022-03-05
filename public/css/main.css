@@ -5770,7 +5770,7 @@ fieldset:disabled .btn {
 	.navbar-nav
 ,.navbar-brand{
 	display: -webkit-inline-box;
-	display: -mozilla-inline-box;
+	display: -moz-inline-box;
 }
 	.modal-fullscreen-sm-down {
 		width: 100vw;
