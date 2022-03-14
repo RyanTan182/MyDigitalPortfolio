@@ -52,7 +52,7 @@
 }
 
 
-@media only screen and (max-width: 600px) { 
+@media only screen and (max-width: 991px) { 
 	.about-me-image {
 		width: 100%;
         padding: 20px 0;
@@ -165,7 +165,7 @@ span.box-sizing-2 {
     max-width: 100%
 }
 
-@media only screen and (max-width: 600px) { 
+@media only screen and (max-width: 991px) { 
     table{
         width: 100%;
         table-layout:fixed;
@@ -184,6 +184,8 @@ span.box-sizing-2 {
         justify-content: center;
     }
   }
+
+
 
   .education-hobbies-container {
     display: flex;
@@ -303,6 +305,7 @@ span.box-sizing-2 {
   }
 
 
+
   /*Hobbies*/
 
 
@@ -323,3 +326,43 @@ span.box-sizing-2 {
     max-width: 100%;
   }
 
+
+  @media only screen and (max-width: 991px) { 
+    .education-hobbies-container{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .education-section{
+      float:center; 
+      flex-direction: column;
+      margin-right: 0px;
+      align-content: center;
+    }
+
+    .education-section:first-child,.hobbies-section:first-child{
+      margin-right: 0px;
+    }
+
+    .hobbies-section{
+      float:center; 
+      flex-direction: column;
+    }
+    .row2,.row1{
+      display: contents;
+      margin-top: 0%;
+      justify-content: center;
+    }
+    .change-hidden-text{
+      visibility: visible;
+      text-align: center;
+    }
+  }
+
+
+  @media (min-width: 991px) { 
+    .change-hidden-text{
+      visibility: hidden;
+    }
+  }

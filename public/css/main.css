@@ -62,7 +62,7 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 991px) {
 	body {
 	background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
 	background-position: center;
