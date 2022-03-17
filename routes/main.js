@@ -3,19 +3,18 @@ const router = express.Router();
 
 
 router.get('/', (req, res) => {
-	const title = "Ryan Tan";
-	res.render('home', {title: title}) 
+	res.render('home') 
 });
 
 router.get('/about', (req, res) => {
-	const title = 'About Me | Ryan Tan';
-	res.render('about_me/about', {title: "About Me | Ryan Tan"}) 
+	const title = 'About Me |';
+	res.render('about_me/about', {title: title}) 
 });
 
 
 router.get('/works', (req, res) => {
-	const title = 'My Works | Ryan Tan';
-	res.render('works/works', {title: "My Works | Ryan Tan"}) 
+	const title = 'My Works |';
+	res.render('works/works', {title: title}) 
 });
 
 module.exports = router;

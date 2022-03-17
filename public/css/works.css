@@ -1,0 +1,80 @@
+.my-works-title{
+    text-align: center;
+    padding: 30px;
+}
+
+.works-border{
+    padding:10px;
+    border:5px solid white;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 5%;
+    background-color: black;
+}
+
+.float-container {
+    padding: 20px;
+    display: flow-root;
+}
+
+.first-box,
+.third-box,
+.fifth-box {
+    width:450px; 
+    float:left; 
+    background-image: url('/img/ryan-tan-profile-picture.jpg');
+    background-position: center;
+    height: 250px;
+    color: black;
+    border:5px solid lightcoral;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 50px;
+    margin: 50px;
+    text-align: center;
+  }
+  
+  .second-box,
+  .fourth-box,
+  .sixth-box{
+    width:450px; 
+    height: 250px;
+    float:right; 
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    border:5px solid lightcoral;
+    border-radius: 10px;
+    background-image: url('/img/ryan-tan-profile-picture.jpg');
+    background-position: center;
+    margin: 50px;
+    text-align: center;
+  }
+
+
+@media only screen and (max-width: 991px) { 
+	.about-me-image {
+		width: 100%;
+        padding: 20px 0;
+	}
+
+    .about-me-description{
+        text-align: center;
+        width: 90%;
+        padding: 30px 0;
+    }
+
+    .row{
+        justify-content: center;
+    }
+
+    .about-me-buttons{
+        justify-content: center;
+    }
+
+    .view-resume-button,
+.copy-email-address{
+    display: inline-block;
+    justify-content: space-between;
+}
+  }
