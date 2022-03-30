@@ -1,12 +1,13 @@
 {
   "name": "ryantan",
   "version": "1.0.0",
+  "homepage": "https://ryantan182.github.io/MyDigitalPortfolio/",
   "description": "Ryan Tan's Digital Portfolio",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "build": "node app.js"
-    
+    "build": "node build",
+    "deploy":"npm run build && gh-pages -d build"
   },
   "keywords": [],
   "author": "Ryan Tan Kang Khen",
